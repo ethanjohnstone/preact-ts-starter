@@ -5,7 +5,7 @@ import { Loader } from "@googlemaps/js-api-loader"
 import { useEffect } from 'react';
 
 const loader = new Loader({
-  apiKey: "AIzaSyD6ttFwzLLdjCj3P71XGtjkrciBwFpQb1I",
+  apiKey: "",
   version: "weekly",
   // libraries: ["places"],
 });
