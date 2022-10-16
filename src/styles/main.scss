@@ -1,5 +1,18 @@
 @import "resets/resets";
 
 * {
-    outline: 1px solid red;
+    // outline: 1px solid rebeccapurple;
+}
+
+.main {
+    position: relative;
+    min-height: 100%;
+}
+
+.c-map {
+    background-color: red;
+    // padding: 20px;
+    position: absolute;
+    min-height: 100vh;
+    width: 100%;
 }

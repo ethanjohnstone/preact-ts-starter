@@ -8,8 +8,8 @@ const __dirname = path.dirname(__filename);
 export default {
   entry: './src/index.tsx',
   output: {
+    path: path.resolve(__dirname, '../public'),
     filename: 'main.js',
-    path: path.resolve(__dirname, 'public'),
   },
   module: {
     rules: [
